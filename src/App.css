@@ -1,0 +1,10 @@
+.bg__myRed{
+  background-color: red;
+}
+.content{
+  padding:12px;
+  height: 1000px;
+}
+.topnav{
+  justify-content: space-between;
+}

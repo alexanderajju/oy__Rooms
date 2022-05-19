@@ -1,0 +1,229 @@
+.world__wide {
+    background: #f4fcfe;
+    display:flex ;
+}
+
+.uae {
+    position: absolute;
+    width: 108px;
+    height: 126px;
+    left: 130px;
+    top: 810px;
+    cursor: pointer;
+}
+
+.uaeDiv {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 30px;
+    font-size: 20px;
+    background-color: white;
+    top: 950px;
+    left: 145px;
+}
+
+.nepal {
+    position: absolute;
+    width: 108px;
+    height: 126px;
+    left: 280px;
+    top: 740px;
+    cursor: pointer;
+}
+
+.nepalDiv {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 30px;
+    font-size: 20px;
+    background-color: white;
+    top: 850px;
+    left: 300px;
+}
+
+.china {
+    position: absolute;
+    width: 108px;
+    height: 126px;
+    left: 440px;
+    top: 715px;
+    cursor: pointer;
+}
+
+.chinaDiv {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 30px;
+    font-size: 20px;
+    background-color: white;
+    top: 820px;
+    left: 500px;
+}
+
+.india {
+    position: absolute;
+    width: 108px;
+    height: 126px;
+    left: 280px;
+    top: 880px;
+    cursor: pointer;
+}
+
+.indiaDiv {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 30px;
+    font-size: 20px;
+    background-color: white;
+    top: 1010px;
+    left: 300px;
+}
+
+.malayasia {
+    position: absolute;
+    width: 150px;
+    height: 100px;
+    left: 420px;
+    top: 850px;
+    cursor: pointer;
+}
+
+.malayasiaDiv {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 30px;
+    font-size: 20px;
+    background-color: white;
+    top: 950px;
+    left: 500px;
+}
+
+.indonesia {
+    position: absolute;
+    width: 106px;
+    height: 136px;
+    left: 380px;
+    top: 950px;
+    cursor: pointer;
+}
+
+.indoDiv {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 30px;
+    font-size: 20px;
+    background-color: white;
+    top: 1075px;
+    left: 440px;
+}
+
+
+.world__wideRight {
+    padding: 10px;
+    text-align: left;
+}
+
+.world__wideRight>p:nth-of-type(1) {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 31px;
+    letter-spacing: 0.005em;
+    margin-bottom: 25px;
+}
+
+.world__wideRight>p:nth-of-type(2) {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 40px;
+} 
+
+.world__wideRight div {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    font-style: normal;
+}
+
+.world__wideRight div span {
+    font-size: 35px;
+    font-weight: 700;
+
+}
+
+.world__wideRight_hotels::before{
+    content: "/";
+    position: absolute;
+    font-size: 90px;
+    right: 520px;
+    top:795px;
+    color: #b1b1b1;
+    font-weight: 100;
+}
+
+.world__wideRight ul  {
+    display: grid;
+    grid-template-columns: repeat(3, 50%);
+
+}
+
+.country li{
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(13, 14, 13);
+    margin-bottom:  20px;
+    list-style: none;
+    
+}
+.country__india::before{
+    content: "\2022 \00a0 \00a0";
+    color: red;
+    font-size: 25px;
+}
+.country__china::before{
+    content: "\2022 \00a0 \00a0";
+    color: rgb(230, 133, 7);
+    font-size: 25px;
+}
+.country__nepal::before{
+    content: "\2022 \00a0 \00a0";
+    color: rgb(179, 255, 0);
+    font-size: 25px;
+}
+.country__indo::before{
+    content: "\2022 \00a0 \00a0";
+    color: rgb(10, 154, 190);
+    font-size: 25px;
+}
+.country__mal::before{
+    content: "\2022 \00a0 \00a0";
+    color: rgb(4, 0, 255);
+    font-size: 25px;
+
+}
+.country__uae::before{
+    content: "\2022 \00a0 \00a0";
+    color: rgb(255, 0, 212);
+    font-size: 25px;
+}

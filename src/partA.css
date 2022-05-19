@@ -1,0 +1,16 @@
+
+.navA__main{
+    display: flex;
+    justify-content:  space-between;
+    
+}
+.nav__logo{
+    margin: 15px;
+    left: 20px;
+    width: 80px;
+    object-fit: contain;
+    
+}
+.nav__right{
+display: flex;
+}

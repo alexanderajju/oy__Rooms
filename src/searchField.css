@@ -1,0 +1,126 @@
+.search__field{
+    background-color: #D5194A;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.search__fieldTitle h4{
+    color: white;
+    margin-bottom: 24px;
+    
+}
+
+.search__fieldInput {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom:5em
+}
+
+.search__fieldInput input {
+    width: 400px;
+    height: 60px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    padding-left: 15px;
+    border: none;
+    margin-right: -2.5px;
+    background: #ffffff;
+    border-radius: 4px 0px 0px 4px;
+    /* margin-bottom: 100px; */
+}
+
+.search__fieldInput input:focus {
+    outline: none;
+}
+
+.react-google-flight-datepicker .dialog-date-picker {
+    width: 700px !important;
+    /* z-index: 0; */
+}
+
+.react-google-flight-datepicker .date-picker {
+    padding: 2px !important;
+}
+
+.react-google-flight-datepicker .day.selected.hovered::after {
+    border-radius: 100%;
+    background-color: #df293a !important;
+}
+
+.react-google-flight-datepicker .day.hovered {
+    background: #fce0de !important;
+    border-radius: unset;
+}
+
+.react-google-flight-datepicker .day.selected::after {
+    background-color: #df293a !important;
+    border-radius: 100%;
+}
+
+.react-google-flight-datepicker .day:hover::after {
+    background-color: #fff;
+    border: 2px solid #df293a !important;
+    /* bottom: -2px;
+    left: -2px;
+    right: -2px;
+    top: -2px; */
+}
+
+.react-google-flight-datepicker .icon-calendar {
+    fill: #df293a !important;
+}
+
+.react-google-flight-datepicker .date:focus,
+.react-google-flight-datepicker .date.is-focus {
+    background-color: #fce0de !important;
+}
+
+.react-google-flight-datepicker .date.is-focus::after {
+    border: 0px solid #df293a !important;
+    /* z-index: -10; */
+}
+
+.react-google-flight-datepicker .dialog-footer .submit-button {
+    background-color: #df293a !important;
+}
+
+.react-google-flight-datepicker .day .background-day.last-day {
+    background: linear-gradient(to left, #fff, #fce0de) !important;
+}
+
+.search__fieldRooms {
+    height: 60px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    margin-left: -5px;
+    cursor: pointer;
+}
+.search__fieldRooms p{
+    margin-top: 10px;
+}
+.search__fieldRooms+button {
+    width: 171px;
+    height: 60px;
+    background: #1ab64f;
+    box-shadow: 0px 4px 4px rgba(96, 182, 126, 0.12);
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: -0.015em;
+    color: #ffffff;
+    border: none;
+    margin-left: -1px;
+    cursor: pointer;
+}
+
+.search__fieldRooms+button:hover {
+    background: #128037;
+}
